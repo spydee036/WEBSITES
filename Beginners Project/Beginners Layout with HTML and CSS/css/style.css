@@ -1,0 +1,36 @@
+body{
+    font-size: 1.125rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    line-height: 1.6;
+    margin: 1rem;
+    padding: 0;
+}
+
+.nav-list{
+    background-color: blue;
+    color: #000;
+    
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    justify-content: flex-end;
+    gap:1rem;
+    flex-wrap: wrap;
+}
+
+.nav-list>*{
+    flex-grow: 0;
+    flex-shrink: 0;
+}
+
+blockquote{
+    border: 1px solid black;
+    display: flex;
+    
+}
+
+cite{
+    
+}

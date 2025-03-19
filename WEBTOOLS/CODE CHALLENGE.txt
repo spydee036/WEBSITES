@@ -1,0 +1,4 @@
+frontendmentor.io (free and paid challenges)
+frontendpractice.com (recreate real web)
+stylestage.dev (CSS Practice)
+firsttimersonly.com (Get started with open source)

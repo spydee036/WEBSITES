@@ -1,0 +1,37 @@
+@media(max-width:100rem){
+     p:not(.special){
+        color:blue;
+    }
+
+    section{
+        border-radius: 5px;
+        box-shadow: 0px 0px 2px black;
+    }
+}
+
+@media(min-width:32rem){
+    .grid{
+        display:grid;
+        padding-block: 2rem;
+        margin-inline: auto;
+        gap:1rem;
+        grid-template-columns: repeat(4, 1fr);
+    }
+    
+    .grid-column1456{
+        grid-column:span 2;
+    }
+    
+    .grid-column5{
+        grid-row-start: 3;
+    }
+    
+    .grid-column6{
+        grid-row-start: 3;
+    }
+    
+    .grid-column23{
+        grid-row: span 2;
+    }
+}
+

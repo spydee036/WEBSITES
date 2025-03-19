@@ -1,0 +1,11 @@
+<html>
+<button class="button" data-icon="shopping-cart">Add to Cart</button>
+
+
+CSS;
+.button[data-icon="shopping-cart"]::before{
+    content: "";
+    background-image: url("images/icon-cart.svg");
+    width: 15px;
+    height: 16px;
+  }
